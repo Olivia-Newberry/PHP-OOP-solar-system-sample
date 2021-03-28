@@ -1,0 +1,8 @@
+version: "3.5"
+
+services:
+  composer:
+    image: composer:latest
+    working_dir: /usr/app
+    volumes:
+      - .:/usr/app

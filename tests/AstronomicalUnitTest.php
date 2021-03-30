@@ -8,7 +8,7 @@ class AstronomicalUnit extends TestCase
 {
     public function test_an_astronomical_unit_can_not_be_negative()
     {
-        $distance = new AstronomicalUnit(-5);
+        $distance = new AstronomicalUnit(-1);
         $this->assertInstanceOf(AstronomicalUnit::class, $distance);
         var_dump($distance);
         $this->assertEquals((float)1,$distance::getValue());

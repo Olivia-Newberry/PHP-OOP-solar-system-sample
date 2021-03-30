@@ -21,4 +21,14 @@ class IdentityTest extends TestCase
 
         new Identity("monkey");
     }
+
+    public function test_can_generate_valid_UUID()
+    {
+        $id = new Identity;
+        $this->assertInstanceOf(Identity::class, $id);
+
+        $UUIDv4 = '/^[0-9A-F]{8}-[0-9A-F]{4}-4[0-9A-F]{3}-[89AB][0-9A-F]{3}-[0-9A-F]{12}$/i';
+        $test = preg_match($UUIDv4, (string) $id);
+        $this->assertEquals(1, $test);
+    }
 }

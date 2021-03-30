@@ -30,3 +30,8 @@ understanding of the problem.
 We have provided some basics, to get you started. You can choose to use the code/tools provided, or start fresh. 
 
 Once complete, send over a zip of the source code.
+
+## Notes
+Data from our solar system taken from https://nssdc.gsfc.nasa.gov/planetary/factsheet/
+File based storage chosen over DB based storage due to ease of setup for use in this task
+Format as follows: /datastore/uuid.json

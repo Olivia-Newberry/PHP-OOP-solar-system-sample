@@ -4,17 +4,21 @@ namespace SolarSystem;
 
 final class AstronomicalUnit
 {
-    public function __construct(float $distance)
+    public function __construct(float $value)
     {
-        $distance = abs($distance); //Distances are always positive numbers
-        $this->distance = $distance;
+        $value = abs($value); //values are always positive numbers
+        $this->value = $value;
     }
-    public static function getValue()
+    public function getValue()
     {
-        return $this->distance;
+        return $this->value;
+    }
+    public function getDiameter() //Distances are stored as radius or distance to central point
+    {
+        return $this->value*2;
     }
     public function __toString(): string
     {
-        return $this->distance;
+        return $this->value;
     }
 }

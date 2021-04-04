@@ -1,0 +1,128 @@
+{
+    "id": {
+        "value": "d8ac43d7-36bc-41be-8bfd-6097dea89e5c"
+    },
+    "name": "Our Solar System",
+    "entities": {
+        "bdfce992-a0a5-4866-bd37-489e482ee7e4": {
+            "id": {
+                "value": "bdfce992-a0a5-4866-bd37-489e482ee7e4"
+            },
+            "name": "Mercury",
+            "mass": {
+                "value": 3.3e+23
+            },
+            "radius": {
+                "value": 3.2607416e-5
+            },
+            "orbit": {
+                "value": 0.38703759437934
+            }
+        },
+        "152ead62-29a5-49f3-ad45-cf59598371dd": {
+            "id": {
+                "value": "152ead62-29a5-49f3-ad45-cf59598371dd"
+            },
+            "name": "Venus",
+            "mass": {
+                "value": 4.87e+24
+            },
+            "radius": {
+                "value": 8.09102425e-5
+            },
+            "orbit": {
+                "value": 0.72300494314455
+            }
+        },
+        "cea93cbd-dc29-4503-a021-d270c73e706f": {
+            "id": {
+                "value": "cea93cbd-dc29-4503-a021-d270c73e706f"
+            },
+            "name": "Earth",
+            "mass": {
+                "value": 5.97e+24
+            },
+            "radius": {
+                "value": 8.52685933e-5
+            },
+            "orbit": {
+                "value": 1
+            }
+        },
+        "2ab8d08a-c83e-4c1d-a2a0-30bb66d180c5": {
+            "id": {
+                "value": "2ab8d08a-c83e-4c1d-a2a0-30bb66d180c5"
+            },
+            "name": "Mars",
+            "mass": {
+                "value": 6.42e+23
+            },
+            "radius": {
+                "value": 4.5415085e-5
+            },
+            "orbit": {
+                "value": 1.52366232843714
+            }
+        },
+        "95f7d50f-ee22-40d5-a071-0a6c49ad16cd": {
+            "id": {
+                "value": "95f7d50f-ee22-40d5-a071-0a6c49ad16cd"
+            },
+            "name": "Jupiter",
+            "mass": {
+                "value": 1.898e+27
+            },
+            "radius": {
+                "value": 0.00095578900509
+            },
+            "orbit": {
+                "value": 5.20307539377297
+            }
+        },
+        "aac58422-61b9-4ccc-aa01-fdc123f0d883": {
+            "id": {
+                "value": "aac58422-61b9-4ccc-aa01-fdc123f0d883"
+            },
+            "name": "Saturn",
+            "mass": {
+                "value": 5.68e+26
+            },
+            "radius": {
+                "value": 0.00080573339337
+            },
+            "orbit": {
+                "value": 9.539133099439228
+            }
+        },
+        "3ba778e6-57b6-4622-92d1-3de9835471f8": {
+            "id": {
+                "value": "3ba778e6-57b6-4622-92d1-3de9835471f8"
+            },
+            "name": "Uranus",
+            "mass": {
+                "value": 8.68e+25
+            },
+            "radius": {
+                "value": 0.0003417027245
+            },
+            "orbit": {
+                "value": 19.1891647425701
+            }
+        },
+        "17474943-a7e3-44c1-a464-9c91bdea502d": {
+            "id": {
+                "value": "17474943-a7e3-44c1-a464-9c91bdea502d"
+            },
+            "name": "Neptune",
+            "mass": {
+                "value": 1.02e+26
+            },
+            "radius": {
+                "value": 0.0003311009693
+            },
+            "orbit": {
+                "value": 30.060427858750266
+            }
+        }
+    }
+}

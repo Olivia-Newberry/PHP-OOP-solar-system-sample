@@ -1,0 +1,10 @@
+/*
+CSS to drive the basic page at public/index.php
+*/
+.grid-4{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+input{
+    width:100%;
+}

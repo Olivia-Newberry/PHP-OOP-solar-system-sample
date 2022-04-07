@@ -27,10 +27,6 @@ Expose a simple interface of your choosing which will allow interaction with the
 The code should be written in PHP. It should contain documentation, setup instructions and unit tests which show your
 understanding of the problem.
 
-We have provided some basics, to get you started. You can choose to use the code/tools provided, or start fresh. 
-
-Once complete, send over a zip of the source code.
-
 ## Notes
 Data from our solar system taken from https://nssdc.gsfc.nasa.gov/planetary/factsheet/
 File based storage chosen over DB based storage due to ease of setup for use in this task
